@@ -470,16 +470,19 @@ nav.vertical {
     nav.vertical ul li {
       display: block;
       margin-left: 30px;
-      font-weight: bold; }
+      font-weight: bold;
+      margin: 5px; }
       nav.vertical ul li a {
         color: black;
         display: inline-block;
         letter-spacing: .1rem;
         line-height: 30px;
         text-decoration: none;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        padding: 12px; }
         nav.vertical ul li a:hover {
-          color: red;
+          color: white;
+          background-color: #000;
           cursor: pointer; }
 
 #map {
