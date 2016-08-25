@@ -10,6 +10,7 @@
     <link href="<?php bloginfo('stylesheet_directory')?>/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php bloginfo('stylesheet_directory')?>/assets/css/carousel.css" rel="stylesheet">
     <link href="<?php bloginfo('stylesheet_url')?>" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

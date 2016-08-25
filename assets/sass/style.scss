@@ -22,6 +22,10 @@ body {
   min-height: 100%;
 }
 
+p {
+  text-align: left;
+}
+
 .pd-tp-40 {
   padding-top: 40px;
 }
@@ -130,7 +134,7 @@ footer {
 
 header .bar {
   position: absolute;
-  bottom: 30px;
+  top: 30px;
   left: 30px;
   z-index: 1000;
 }
@@ -356,11 +360,23 @@ nav.vertical {
          background-color: #000;
          cursor: pointer;
         }
+
+      
       }
     }
   }
 }
 
+
+/*.active {
+   color: white;
+   background-color: black; 
+} */
+.current-menu-item a
+                {
+             color: white;
+             background-color: black; 
+        }
 
 #map {
   height: 400px;
@@ -378,7 +394,14 @@ nav.vertical {
   &:hover {
     text-decoration: none;
   }
+
 }
+
+
+.img-wrapper p {
+  padding-top: 3%;
+}
+
 
 @media screen and (min-width: 200px) {
   section#pictures .row .col-md-6 .img-wrapper{
